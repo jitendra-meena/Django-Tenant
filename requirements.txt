@@ -1,4 +1,9 @@
 asgiref==3.5.0
 backports.zoneinfo==0.2.1
 Django==4.0.3
+django-tenant-schemas==1.11.0
+django-tenants==3.4.2
+ordered-set==4.1.0
+psycopg2-binary==2.9.3
+six==1.16.0
 sqlparse==0.4.2
