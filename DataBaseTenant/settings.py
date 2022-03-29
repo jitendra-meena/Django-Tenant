@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'DataBaseTenant.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django_tenants.postgresql_backend',
+        'ENGINE': 'tenant_schemas.postgresql_backend',
         'NAME': 'TenantDB', 
         'USER': 'postgres', 
        'PASSWORD':'postgres',
