@@ -60,6 +60,7 @@ ROOT_URLCONF = 'DataBaseTenant.urls'
 DATABASE_ROUTERS = (
     'tenant_schemas.routers.TenantSyncRouter',
 )
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -102,6 +103,8 @@ DATABASES = {
 DATABASE_ROUTERS = (
     'tenant_schemas.routers.TenantSyncRouter',
 )
+
+TENANT_MODEL = "Tanent.Client" # app.Model
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
