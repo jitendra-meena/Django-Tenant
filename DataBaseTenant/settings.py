@@ -104,6 +104,7 @@ DATABASE_ROUTERS = (
     'tenant_schemas.routers.TenantSyncRouter',
 )
 
+#Tanent DataBase Register
 TENANT_MODEL = "Tanent.Client" # app.Model
 
 # Password validation
