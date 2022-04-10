@@ -11,8 +11,3 @@ DATABASES = {
         # ..
     }
 } 
-
-=======
-Multitenancy Application support multiples DataBase for DataBase Scalling 
->>>>>>> 42a85ae8aae6dc84adb706d115d560d8dded3c88
-
