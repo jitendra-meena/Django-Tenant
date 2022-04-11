@@ -8,6 +8,6 @@ This application enables django powered websites to have multiple tenants via Po
 DATABASES = {
     'default': {
         'ENGINE': 'django_tenants.postgresql_backend',
-        # ..
-    }
+        
+     }
 } 

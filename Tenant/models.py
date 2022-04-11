@@ -9,4 +9,5 @@ class Client(TenantMixin):
     created_on = models.DateField(auto_now_add=True)
 
 
-    
+class Domain(TenantMixin):
+    pass
